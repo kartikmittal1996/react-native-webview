@@ -3,12 +3,11 @@ import {
   Image,
   View,
   ImageSourcePropType,
-  HostComponent,
 } from 'react-native';
 import invariant from 'invariant';
 
 import codegenNativeCommands from 'react-native/Libraries/Utilities/codegenNativeCommands';
-import RNCWebView, {NativeProps} from "./RNCWebViewNativeComponent";
+import RNCWebView from "./RNCWebViewNativeComponent";
 import RNCWebViewModule from "./NativeRNCWebView";
 
 import {
