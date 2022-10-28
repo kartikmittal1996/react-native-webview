@@ -85,7 +85,7 @@ const WebViewComponent = forwardRef<{}, IOSWebViewProps>(({
   onShouldStartLoadWithRequest: onShouldStartLoadWithRequestProp,
   ...otherProps
 }, ref) => {
-  const webViewRef = useRef<HostComponent<NativeProps> | null>(null);
+  const webViewRef = useRef<any>(null);
 
   const onShouldStartLoadWithRequestCallback = useCallback((
     shouldStart: boolean,
